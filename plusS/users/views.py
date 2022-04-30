@@ -21,8 +21,3 @@ class UserViewSet(viewsets.ModelViewSet):
 
 
 
-
-
-
-
-
