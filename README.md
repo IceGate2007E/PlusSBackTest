@@ -10,5 +10,5 @@ python manage.py runserver
     
     
 All done! The app is ready to use
-Enter http://localhost:8000/docs/ in google to check the endpoints
+Enter http://localhost:8000/docs/ to check the endpoints
     
