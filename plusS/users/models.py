@@ -4,7 +4,7 @@ from pyparsing import empty
 class User(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     email = models.EmailField(max_length=254, unique=True, blank=False)
-    username = models.CharField(max_length=100)
+    username = models.CharField(max_length=100,blank=False)
 
     class Meta:
         ordering = ['created']
