@@ -3,10 +3,10 @@
 Steps to run it locally
 
 1. Clone the repository
-2. Type
-    cd plusS in your console 
-3. Type
-    python manage.py runserver in your console.
+2. Type in your console:
+cd plusS
+4. Typein your console:
+python manage.py runserver 
     
     
 All done! The app is ready to use
