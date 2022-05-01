@@ -10,7 +10,7 @@ from rest_framework.decorators import action
 from rest_framework import status, mixins, generics, viewsets
 from users.serializers import UserSerializer
 
-from django.contrib.auth.models import User
+from users.models import User
 
 class UserViewSet(viewsets.ModelViewSet):
     """
